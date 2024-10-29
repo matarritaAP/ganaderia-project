@@ -103,9 +103,10 @@ include_once './business/sessionManager.php';
             <div class="section">
                 <h2>Gestión de Bovinos</h2>
                 <a href="./view/razaProductorView.php">Raza de Bovinos</a>
+                <a href="./view/tratamientoBovinoView.php">Tratamiento de Bovinos</a>
                 <a href="./view/estadoProductorView.php">Estados del Bovino</a>
                 <a href="./view/bovinoCompraView.php">Gestión de compra de Bovinos</a>
-                <a href="#">Gestión de eventos de Bovinos (Venta, Robo, Muerte)</a>
+                <a href="./view/bovinoEventoView.php">Gestión de eventos de Bovinos (Venta, Robo, Muerte)</a>
                 <div class="sub-section">
                     <h3>Reproducción</h3>
                     <a href="./view/bovinoPartoView.php">Gestión de parto de Bovinos</a>
