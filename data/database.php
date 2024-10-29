@@ -14,11 +14,11 @@ class DataBase
         $this->isActive = false;
 
         // Conexión remota a Railway
-        $this->servername = "junction.proxy.rlwy.net"; // Host de Railway
-        $this->username = "root"; // Usuario de Railway
-        $this->password = "IpYmzAvIOqOggTlQmbBFNouhuizHvYWz"; // Contraseña de Railway
-        $this->dbname = "dbganaderia"; // Nombre de la base de datos en Railway
-        $this->port = 32169; // Puerto de Railway
+        $this->servername = getenv('DB_HOST');
+        $this->username = getenv('DB_USER');
+        $this->password = getenv('DB_PASS');
+        $this->dbname = getenv('DB_NAME');
+        $this->port = getenv('DB_PORT');
     }
 
     public function conectar()
