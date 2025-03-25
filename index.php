@@ -6,8 +6,7 @@ include_once './business/sessionManager.php';
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Sistema Integral de Gestión de Fincas</title>
     <style>
         body {
